@@ -1,0 +1,15 @@
+.container{
+    /*height: inherit;*/
+    width: 70%;
+
+}
+
+body{
+    background: url("../Imag/one.jpg") fixed;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-size: cover ;
+    /*overflow: hidden;*/
+
+}
