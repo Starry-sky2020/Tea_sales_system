@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../BootStrap5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/admin_5_UI.css">
+    <script src="../BootStrap5/jquery-3.6.0.min.js"></script>
+    <script src="../BootStrap5/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-dark fixed-top bg-dark" >
+    <!-- Navbar content -->
+    <ul class="nav nav-pills nav-fill" style="width: 100%">
+        <li class="nav-item">
+            <a class="nav-link active" style="background-color: #0290ff" href="admin_5_UI.html">主页</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " style="color: white" href="admin_1_UI.php">添加</a>
+        </li>
+        <li class="nav-item" aria-current="page">
+            <a class="nav-link " style="color: white" href="admin_2_UI.php">货架</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" style="color: white" href="admin_3_UI.php">删除记录</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" style="color: white" href="admin_4_UI.php">下架商品</a>
+        </li>
+
+    </ul>
+</nav>
+<div style="height: 65px;"></div>
+
+<div class="container">
+    <h2>添加页面</h2>
+    <p>添加新的商品信息，并且可以选择修改商品剩余量</p>
+    <img src="../Imag/add.png" alt="" style="width: 700px; margin: 0px 150px">
+    <p></p>
+    <p>此功能仅供总管理员使用，可以添加和删除管理员但权限都在超管权限之下<br/>
+        同时，管理员可以通过“查看管理员按钮查看管理员的信息”
+    </p>
+
+    <img src="../Imag/add_1.png" alt="" style="width: 900px; margin: 0px 60px">
+    <hr>
+    <h2>货架页面</h2>
+    <p>供管理员观察到商品展示信息，并且可以通过此页面直接对商品进行信息的修改、下架商品、直接删除商品的功能<br/>
+    点击“修改信息”按钮，界面将弹出修改信息框，用户可选择性对商品属性进行修改<br/>
+    点击“下架商品”按钮，商品将从暂时货架移除，同时显示在下架商品页面显示并支持再次上架<br/>
+    点击“清空”按钮，商品将会被永久清除，但会有记录留存</p>
+    <img src="../Imag/huojia.png" alt=""style="width: 900px; margin: 0px 60px">
+        <hr>
+    <h2>删除记录页面</h2>
+    <p>将对清除的商品信息进行展示，并且可以通过点击“复选框”“删除”按钮选择记录进行清除</p>
+    <img src="../Imag/delete.png" alt=""style="width: 900px; margin: 0px 60px">
+    <hr>
+    <h2>下架商品页面</h2>
+    <p>此页面将对下架的商品进行展示<br/>
+    点击“重新上架”按钮，可以选择性修改商品属性并重新将商品上架<br/>
+    点击“清除”按钮将对下架商品进行永久清除，并产生清除记录</p>
+    <img src="../Imag/behind.png" alt=""style="width: 900px; margin: 0px 60px">
+</div>
+</body>
+</html>
